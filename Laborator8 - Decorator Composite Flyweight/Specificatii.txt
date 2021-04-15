@@ -1,0 +1,9 @@
+1. Modificarea in timpul jocului(la runtime) a caracteristicilor unor super-eroi -atribute(stare)
+                                                                                 -metode(comportament)
+- in timpul jocului super-eroii pot fi dotati cu echipamente noi(atribute)
+- comportamentul(functii) super-eroului se poate modifica dinamic(la runtime) in functie de interactiunea cu celelalte caractere din joc
+You sent Today at 11:50 AM (Decorator)
+
+2. Pentru a gestiona o structura ierarhica de caractere (de ex o armata sau un grup de jucatori)
+- sa se gaseasca o solutie eficienta care sa permita gruparea jucatorilor
+- un grup poate contine caractere controlate de jucatori sau alte grupuri (Composite)
