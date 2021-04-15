@@ -14,7 +14,7 @@ public class TestDecorator {
 		dragon2.esteLovit(200);
 		dragon2.seVindeca(100);
 		
-		//aplicam decoratori pe primul dragon dar aici nu se fac modificari in mod dinamic
+//		aplicam decoratori pe primul dragon dar aici nu se fac modificari in mod dinamic
 //		SuperErou dragonCuArmura = new DecoratorArmura(dragon, 300);
 //		dragonCuArmura.esteLovit(400);
 //		

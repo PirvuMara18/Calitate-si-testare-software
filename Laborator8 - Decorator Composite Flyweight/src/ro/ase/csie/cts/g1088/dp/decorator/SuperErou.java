@@ -16,6 +16,7 @@ public abstract class SuperErou {
 	public abstract void alearga();
 	public abstract void esteLovit(int puncte);
 	public abstract void seVindeca(int puncte);
+	public abstract int getPuncteViata();
 	
 	
 
