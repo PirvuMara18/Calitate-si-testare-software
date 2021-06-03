@@ -76,19 +76,17 @@ public class TestStudent {
 	}
 	
 	//test Right pt setNume
-//	
-//	@Test
-//	public void testSetNume() {
-//		String numeNou = "Ana";
-//		try {
-//			student.setNume("numeNou");
-//			assertEquals("Test cu valori corecte", numeNou, student.getNume());
-//		} catch (ExceptieNume e) {
-//		    fail("Genereaza exceptie pentru valori corecte (valoare = Ana)");
-//			
-//		}
-//		
-//	}
+	
+	@Test
+	public void testSetNumeRight() {
+		String numeNou = "Ana";
+		try {
+			student.setNume(numeNou);
+			assertEquals("Test cu valori corecte",numeNou, student.getNume());
+		} catch (ExceptieNume e) {
+			fail("Genereaza exceptie pentru valori corecte");
+		}
+	}
 	
 	@Test
 	public void testSetVarstaErrorCondition()  {
